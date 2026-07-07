@@ -1,7 +1,6 @@
 import { Link , useNavigate} from "react-router-dom";
 import { useContext, useState } from "react";
 import { UserContext } from "../context/UserContext";
-const { enrollCourse } = useContext(UserContext);
 
 
 function CourseCard({ course , deleteCourse}) {
